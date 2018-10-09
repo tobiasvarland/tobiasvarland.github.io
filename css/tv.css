@@ -1,0 +1,36 @@
+.profile {
+  border-radius: 100%;
+  border: 1rem solid #f8f9fa;
+  height: 20vh;
+  margin-top: -10vh;
+}
+
+.icon {
+  width: 2rem;
+}
+
+.sidebar {
+  overflow: auto;
+}
+
+.carousel-indicators li {
+  border-radius: 100%;
+  height: 7px;
+  width: 7px;
+}
+
+h1 {
+  color: #1693A5;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+h4 {
+  color: #FE4365;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.bg-dark h4 {
+  color: #FBB829;
+}
