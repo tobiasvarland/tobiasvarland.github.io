@@ -37,10 +37,14 @@ h1 {
 h4 {
   color: #FE4365;
   font-family: 'Permanent Marker', cursive;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
-.bg-dark h4 {
-  color: #FBB829;
+.bg-profile {
+  background-color: #1693A5;
+}
+
+.bg-profile h4 {
+  color: #FFFFFF;
 }
