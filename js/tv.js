@@ -6,11 +6,13 @@ var TV = {
   portfolioCount: 5,
   imageContainer: null,
   indicatorContainer: null,
+  loadingMessage: null,
   loadPortfolio: function() {
 
     // Reference containers.
     TV.imageContainer = $('#portfolio-photo-container');
     TV.indicatorContainer = $('#portfolio-indicator-container');
+    TV.loadingMessage = $('#portfolio-loading');
 
     // Load first image.
     TV.loadImage(1);
@@ -29,6 +31,8 @@ var TV = {
       var galleryImage = $('<div />').addClass('carousel-item').append(img);
       var indicator = $('<li />').attr('data-target', '#portfolio').attr('data-slide-to', index - 1);
       if (index == 1) {
+        TV.loadingMessage.remove();
+        $('#portfolio').removeClass('d-none');
         galleryImage.addClass('active');
         indicator.addClass('active');
       }
@@ -47,4 +51,3 @@ var TV = {
 $(window).on('load', function() {
   TV.loadPortfolio();
 });
-// $(function() { console.log('1'); });

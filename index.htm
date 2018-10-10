@@ -12,6 +12,10 @@
           crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker"
           rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
     <link rel="stylesheet"
           href="css/tv.css">
 
@@ -45,10 +49,13 @@
                 nerd at heart and a self-taught photographer.
               </p>
             </div>
-            <div class="col-12 bg-white mt-3 shadow-sm">
+            <div class="col-12 bg-white mt-3 pb-3 shadow-sm">
               <h4 class="mt-3"><img class="icon mr-2" src="img/work.svg" />Some of My Photos</h4>
+              <p id="portfolio-loading" class="font-weight-light mb-0 text-center text-secondary">
+                <i class="fa fa-refresh fa-spin fa-fw"></i><span class="sr-only">Loading...</span>
+              </p>
               <div id="portfolio"
-                   class="carousel slide mb-3 mt-3 carousel-fade"
+                   class="carousel slide mt-3 carousel-fade d-none"
                    data-ride="false"
                    data-interval="false">
                 <ol class="carousel-indicators" id="portfolio-indicator-container">
