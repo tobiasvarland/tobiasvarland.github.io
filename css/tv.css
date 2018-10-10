@@ -1,8 +1,8 @@
 .profile {
   border-radius: 100%;
   border: 1rem solid #f8f9fa;
-  height: 20vh;
-  margin-top: -10vh;
+  height: 30vh;
+  margin-top: -15vh;
 }
 
 .icon {
@@ -19,14 +19,24 @@
   width: 7px;
 }
 
+body {
+  padding-top: 2rem;
+}
+
+.container {
+  padding-top: 15vh;
+}
+
 h1 {
   color: #1693A5;
-  font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
   font-weight: 200;
 }
 
 h4 {
   color: #FE4365;
+  font-family: 'Permanent Marker', cursive;
   font-size: 1.5rem;
   font-weight: 300;
 }
