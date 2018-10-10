@@ -1,6 +1,19 @@
 var TV = {
 
   /**
+   * Dynamically loads portfolio.
+   */
+  loadPortfolio: function() {
+    var folder = 'port/';
+    $.ajax({
+      url: folder,
+      success: function(data) {
+        console.log(data);
+      }
+    });
+  },
+
+  /**
    * Adds images to portfolio.
    */
   buildPortfolio: function() {
@@ -22,4 +35,5 @@ var TV = {
 
 $(function() {
   TV.buildPortfolio();
+  TV.loadPortfolio();
 });
