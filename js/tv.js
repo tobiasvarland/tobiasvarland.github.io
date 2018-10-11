@@ -3,7 +3,7 @@ var TV = {
   /**
    * Dynamically loads portfolio.
    */
-  portfolioCount: 64,
+  portfolioCount: 77,
   imageContainer: null,
   loadingMessage: null,
   loadPortfolio: function() {
