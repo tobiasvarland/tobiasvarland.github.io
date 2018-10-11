@@ -27,6 +27,11 @@ body {
   padding-top: 15vh;
 }
 
+.blockquote {
+  font-family: Merriweather, serif;
+  font-size: 0.9rem;
+}
+
 h1 {
   color: #1693A5;
   font-family: 'Permanent Marker', cursive;
